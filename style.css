@@ -4,7 +4,7 @@ body{
     background-image: url("img/background.jpeg");
     background-size: cover;
     position: relative;
-    background-color: rgba(240,248,255,0.66);
+    background-color: rgba(240,248,255,0.56);
     background-blend-mode:soft-light;
     box-sizing: border-box;
     font-family: 'Lora', serif;
@@ -68,6 +68,12 @@ border:1px ridge #8140dd ;
 background-color: whitesmoke;
 
 }
+
+.hover
+{
+    height: 35em;
+}
+
 .hover:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -103,8 +109,8 @@ font-stretch: expanded;
 {
 font-size: .9em;
 padding: 3px;
-background-color: crimson;
-color: dodgerblue;
+background-color: dodgerblue;
+color: crimson;
 border: 3px solid floralwhite;
 }
 
