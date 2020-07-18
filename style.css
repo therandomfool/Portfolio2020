@@ -4,7 +4,7 @@ body{
     background-image: url("img/background.jpeg");
     background-size: cover;
     position: relative;
-    background-color: rgba(240,248,255,0.9);
+    background-color: rgba(240,248,255,0.76);
     background-blend-mode:soft-light;
     box-sizing: border-box;
     font-family: 'Lora', serif;
@@ -17,6 +17,25 @@ i.fa {
     border-radius: 50%;
   
   }
+
+  i.fab {
+    background: dodgerblue;
+    padding:20px;
+    border: 3px solid floralwhite;
+    border-radius: 50%;
+  
+  }
+
+.card-body i
+{
+    font-size: 2em;
+    background: dodgerblue;
+    padding:15px;
+   
+    border-radius: 10% / 50%;
+    color: floralwhite;   
+}
+
 .div
 {
     z-index: 100;
@@ -29,19 +48,16 @@ color: black;
 
 .card img 
 {
-    min-height: 12em;
-    max-height: 12em;
     max-width: 100%;
-    /* border:3px double black ; */
-   
+    height: auto;
 }
 
 .card
 {
 border:1px ridge #8140dd ;
-z-index: 1;
+
 }
-.card:hover {
+.hover:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.45); 
@@ -81,7 +97,22 @@ border: 3px solid floralwhite;
 }
 
 
+@media screen and (max-width:768px) {
+    img {
+        width:100%;
+    }
+    .container {
+        max-width:100%;
+        width: 100%;
+    }
+    .col-md-3{
+        width:100%;
+        float:left;
+        margin:0;
+    }
+    }
 
+    
 
 
 
