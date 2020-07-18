@@ -108,7 +108,7 @@ background-color: whitesmoke;
 background-color: dodgerblue;
 /* opacity: 85%; */
 color: whitesmoke;
-margin-top: 5em;
+/* margin-top: 5em; */
 }
 
 .head
@@ -140,6 +140,32 @@ border: 3px solid floralwhite;
         float:left;
         margin:0;
     }
+    }
+
+
+    #connect-section
+    {
+    padding-top: 6em;
+    }
+
+    #why-section
+    {
+    padding-top: 6em;
+    }
+
+    #hobbies-section
+    {
+    padding-top: 6em;
+    }
+
+    #projects-section
+    {
+    padding-top: 7em;
+    }
+
+    #home
+    {
+    padding-top: 5em;
     }
 
     
