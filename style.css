@@ -4,7 +4,7 @@ body{
     background-image: url("img/background.jpeg");
     background-size: cover;
     position: relative;
-    background-color: rgba(240,248,255,0.76);
+    background-color: rgba(240,248,255,0.66);
     background-blend-mode:soft-light;
     box-sizing: border-box;
     font-family: 'Lora', serif;
@@ -26,13 +26,23 @@ i.fa {
   
   }
 
+  span i
+  {
+    background: none !important;
+    padding: 0px !important;
+    border: none;
+    font-size: 1.5em;
+    color: dodgerblue;
+    
+  }
+
 .card-body i
 {
     font-size: 2em;
     background: dodgerblue;
     padding:15px;
-   
-    border-radius: 10% / 50%;
+    border-radius: 50% 20% / 10% 40%;
+    /* border-radius: 10% / 50%; */
     color: floralwhite;   
 }
 
@@ -55,6 +65,7 @@ color: black;
 .card
 {
 border:1px ridge #8140dd ;
+background-color: whitesmoke;
 
 }
 .hover:hover {
@@ -66,7 +77,7 @@ border:1px ridge #8140dd ;
     overflow: hidden;
   }
 
-  .connect:hover {
+.connect:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.45); 
@@ -78,7 +89,8 @@ border:1px ridge #8140dd ;
 .jumbotron
 {
 background-color: dodgerblue;
-opacity: 85%;
+/* opacity: 85%; */
+color: whitesmoke;
 }
 
 .head
