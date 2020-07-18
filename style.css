@@ -8,6 +8,17 @@ body{
     background-blend-mode:soft-light;
     box-sizing: border-box;
     font-family: 'Lora', serif;
+    
+}
+
+#logo
+{
+height: 3em;
+width: 3em;
+background-color: dodgerblue;
+border: .7px solid floralwhite;
+border-radius: 50%;
+
 }
 
 i.fa {
@@ -97,6 +108,7 @@ background-color: whitesmoke;
 background-color: dodgerblue;
 /* opacity: 85%; */
 color: whitesmoke;
+margin-top: 5em;
 }
 
 .head
