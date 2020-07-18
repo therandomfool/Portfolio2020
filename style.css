@@ -4,9 +4,9 @@ body{
     background-image: url("img/background.jpeg");
     background-size: cover;
     position: relative;
-    background-color: rgba(255,255,255,0.80);
+    background-color: rgba(240,248,255,0.9);
     background-blend-mode:soft-light;
-    
+    box-sizing: border-box;
     font-family: 'Lora', serif;
 }
 
@@ -33,12 +33,27 @@ color: #f9f8ef;
     min-height: 12em;
     max-height: 12em;
     max-width: 100%;
+    /* border:3px double black ; */
+   
 }
 
-/* .card
+.card
 {
-    min-width: ;
-max-height: 35em;
-} */
+border:1px ridge #8140dd ;
+z-index: 1;
+}
+.card:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.45); 
+    transition: transform 1s ease;
+    z-index: 100;
+  }
+
+.jumbotron
+{
+background-color: dodgerblue;
+opacity: 85%;
+}
 
 
