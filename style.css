@@ -10,7 +10,8 @@ body{
     background-color: rgba(240,248,255,0.56);
     background-blend-mode:soft-light;
     box-sizing: border-box;
-    font-family: 'Lora', serif;
+    /* font-family: 'Lora', serif; */
+    font-family: Helvetica, sans-serif;
 }
 
 #logo
@@ -92,7 +93,7 @@ overflow: auto;
 .hover:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.45); 
+    transform: scale(1.15); 
     transition: transform 1s ease;
     z-index: 100;
     overflow: hidden;
@@ -182,6 +183,7 @@ border: 3px solid floralwhite;
     {
     font-size: 1.2em !important;
     line-height: 1.6 !important;    
+    height: 16em;;
     }
 
     .card-title
